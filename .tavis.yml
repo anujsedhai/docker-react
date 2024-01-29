@@ -1,4 +1,5 @@
 sudo: required
+
 services:
   - docker
 
@@ -6,5 +7,5 @@ before_install:
   - docker build -t anujsedhai/docker-react -f dockerfile.dev .
 
 script:
-  - docker run anujsedhai/docker-react npm test -- --covarage
+  - docker run anujsedhai/docker-react npm test -- --coverage
   
