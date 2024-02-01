@@ -12,12 +12,12 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "eu-north-1"
-  app: "docker"
-  env: "Docker-env-1"
+  app: "travis-2"
+  env: "docker-2"
   bucket_name: "elasticbeanstalk-eu-north-1-583438242174"
-  bucket_path: "docker"
+  bucket_path: "dtravis-2"
   on:
     branch: master
   access_key_id: $AccessKey
   secret_access_key: "$AccessSecret"
-  
+
