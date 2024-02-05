@@ -13,9 +13,9 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-north-1"
   app: "travis-2"
-  env: "docker-2"
+  env: "Travis-2-env"
   bucket_name: "elasticbeanstalk-eu-north-1-583438242174"
-  bucket_path: "dtravis-2"
+  bucket_path: "travis-2"
   on:
     branch: master
   access_key_id: $AccessKey
